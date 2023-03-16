@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="/Formacao-HTML/Desafio2/base.css">
+    <style>
+
+        table tr{
+            text-align: center;
+        }
+        table thead tr{
+            background-color: black;
+            color: white;
+        }
+        table tbody tr:nth-child(even) td{
+            background-color: rgb(204, 204, 251);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="/Formacao-HTML/Desafio2/index.html">Página Principal</a></li>
+                <li><a href="/Formacao-HTML/Desafio2/Sobre nós/SobreNos.html">Sobre Nós</a></li>
+                <li><a href="/Formacao-HTML/Desafio2/Horários de atendimento/Horarios.html">Horário de Atendimento</a></li>
+                <li><a href="/Formacao-HTML/Desafio2/Contato/contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="img/hospital.png" width="100px">
+                <h1>Mangueiras</h1>
+                <h2>Centro de Diagnósticos</h2>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h3>Horários</h3>
+                <table width="400px" cellpadding="3px" cellspacing="0"summary="Tabela referente aos horários de atendimento da Clínica Mangueiras">
+                    <thead>
+                        <tr>
+                            <td>Serviços</td>
+                            <td>Segunda a Sexta</td>
+                            <td>Sábados</td>
+                            <td>Feriados</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínica geral</td>
+                            <td>09h00 - 20h00</td>
+                            <td>09h00 - 12h00</td>
+                            <td>10h00 - 14h00</td>
+                        </tr>
+                        <tr>
+                            <td>Odontologia</td>
+                            <td>08h00 - 17h00</td>
+                            <td>09h00 - 12h00</td>
+                            <td>09h00 - 12h00</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>07h00 - 14h00</td>
+                            <td>09h00 - 12h00</td>
+                            <td>----------</td>
+                        </tr>
+                        <tr>
+                            <td>Oftalmologia</td>
+                            <td>09h00 - 20h00</td>
+                            <td>----------</td>
+                            <td>----------</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+    
+            <div class="footer">
+                <h3>Contato</h3>
+                <p><strong>E-mail:</strong> atendimento@clinicamangueiras.com.br</p>
+                <p><strong>Telefone:</strong> (15) 3322-8600</p>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
